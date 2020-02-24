@@ -1,5 +1,7 @@
 package contactList;
 
+import java.util.Scanner;
+
 public class ContactList {
     LinkList<Person> list = new LinkList<>();
     private Scanner scan = new Scanner(System.in);
